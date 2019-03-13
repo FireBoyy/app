@@ -1,0 +1,110 @@
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+body{
+  margin: 0;
+  font-family: Arial;
+  background-color: silver;
+}
+
+header{
+  padding: 60px;
+  text-align: center;
+  color: #D24F33;
+  font-size: 30px;
+
+}
+
+.logo img{
+  float: right;
+  margin-top: -55px;
+
+}
+.main form select{
+    text-align-last:center;
+    padding-right: 29px;
+    direction: rtl;
+}
+
+#car{
+  text-align: center;
+  font-size: 25px;
+  width:90%;
+  margin-right:auto;
+  margin-left: auto;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+
+}
+
+/* .car-model{
+    text-align: center;
+    font-size: 25px;
+    width:90%;
+    margin-right:auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+} */
+
+.model{
+  text-align: center;
+  font-size: 25px;
+  width:90%;
+  margin-right:auto;
+  margin-left: auto;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.inspector{
+    text-align: center;
+    font-size: 25px;
+    width:90%;
+    margin-right:auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.operator{
+    text-align: center;
+    font-size: 25px;
+    width:90%;
+    margin-right:auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.vin{
+    text-align: center;
+    font-size: 25px;
+    width:90%;
+    margin-right:auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+button{
+  width: 150px;
+  background-color: #2ab263;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  margin-left: 620px;
+  margin-top: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+button:hover{
+  cursor: pointer;
+  background-color: #377551;
+}
